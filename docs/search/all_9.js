@@ -31,8 +31,7 @@ var searchData=
   ['logger_2ecpp_28',['Logger.cpp',['../d9/d0d/utils_2src_2_logger_8cpp.html',1,'(Global Namespace)'],['../de/dd4/libraries_2libs_2_logger_2_logger_8cpp.html',1,'(Global Namespace)']]],
   ['logger_2eh_29',['Logger.h',['../d4/dc0/utils_2inc_2_logger_8h.html',1,'(Global Namespace)'],['../d1/d33/libraries_2libs_2_logger_2_logger_8h.html',1,'(Global Namespace)']]],
   ['loglevel_30',['LogLevel',['../d3/d42/class_logger.html#ac744681e23720966b5f430ec2060da36',1,'Logger::LogLevel()'],['../d3/d42/class_logger.html#ac744681e23720966b5f430ec2060da36',1,'Logger::LogLevel()']]],
-  ['lognewline_31',['LogNewLine',['../d9/d7a/class_t_f_t.html#ab27086ec48a592c4fd90d0b5588b68f9',1,'TFT']]],
-  ['logtimestruct_32',['LogTimeStruct',['../db/d0d/struct_logger_1_1_log_time_struct.html',1,'Logger']]],
-  ['longitude_33',['longitude',['../df/d64/struct_radio_packet_1_1gps_coords_packet_data.html#a4a046baf0bd505c66cffdb8d98410e68',1,'RadioPacket::gpsCoordsPacketData::longitude()'],['../dd/d56/struct_g_p_s_1_1gps_location.html#abca14694f5a1d665b0a3e2ea43b91f21',1,'GPS::gpsLocation::longitude()']]],
-  ['loop_34',['loop',['../d8/d96/_g_c_s_2_button_handler_2src_2main_8cpp.html#afe461d27b9c48d5921c00d521181f12f',1,'main.cpp']]]
+  ['logtimestruct_31',['LogTimeStruct',['../db/d0d/struct_logger_1_1_log_time_struct.html',1,'Logger']]],
+  ['longitude_32',['longitude',['../df/d64/struct_radio_packet_1_1gps_coords_packet_data.html#a4a046baf0bd505c66cffdb8d98410e68',1,'RadioPacket::gpsCoordsPacketData::longitude()'],['../dd/d56/struct_g_p_s_1_1gps_location.html#abca14694f5a1d665b0a3e2ea43b91f21',1,'GPS::gpsLocation::longitude()']]],
+  ['loop_33',['loop',['../d8/d96/_g_c_s_2_button_handler_2src_2main_8cpp.html#afe461d27b9c48d5921c00d521181f12f',1,'main.cpp']]]
 ];
