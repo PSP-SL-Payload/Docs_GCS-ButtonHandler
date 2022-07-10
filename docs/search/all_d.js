@@ -39,7 +39,7 @@ var searchData=
   ['printdatetime_36',['PrintDateTime',['../d1/d58/class_g_p_s.html#ac954848ac4b4d88b09aa90b20f25225a',1,'GPS']]],
   ['printifanypressed_37',['PrintIfAnyPressed',['../de/dce/class_switches.html#a7f5ab7a22f3e10ced639b9ec5b3acb79',1,'Switches']]],
   ['printlocation_38',['PrintLocation',['../d1/d58/class_g_p_s.html#a0dbcb6671a3e662e9000b0a28b3c4e15',1,'GPS']]],
-  ['printpacket_39',['PrintPacket',['../d8/dec/class_serial_interface.html#ac1fa8b01622a84fe73d4f9589b559220',1,'SerialInterface']]],
+  ['printpacket_39',['PrintPacket',['../d8/dec/class_serial_interface.html#a8fb78d6b847204d77afdef65828cfd9f',1,'SerialInterface']]],
   ['printpacketflagbits_40',['PrintPacketFlagBits',['../d5/de8/class_radio_packet.html#a358661ca8159098c184dcc979434df03',1,'RadioPacket::PrintPacketFlagBits(char *flagBitLine=nullptr)'],['../d5/de8/class_radio_packet.html#a818c3b80f8524bdb58e98605f1a8d40e',1,'RadioPacket::PrintPacketFlagBits(const uint8_t flagByte, char *flagBitLine=nullptr)']]],
   ['printpacketpayload_41',['PrintPacketPayload',['../d5/de8/class_radio_packet.html#ad0c910677213c9e7c1a8641a549c5fc3',1,'RadioPacket']]],
   ['printpacketsinbuffer_42',['PrintPacketsInBuffer',['../d8/dec/class_serial_interface.html#a2521188c0b35b2f38ef0a63c9b3343c4',1,'SerialInterface']]],
