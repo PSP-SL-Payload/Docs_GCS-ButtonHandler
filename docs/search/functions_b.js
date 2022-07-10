@@ -15,7 +15,7 @@ var searchData=
   ['pb_5fstatus_5f0_5fpressed_12',['PB_STATUS_0_Pressed',['../de/dce/class_switches.html#a2e71056835245f32c8c50ad89f9845a7',1,'Switches']]],
   ['pb_5fstatus_5f1_5fpressed_13',['PB_STATUS_1_Pressed',['../de/dce/class_switches.html#abdcdcb02bb67f6f902a583ff1b57964e',1,'Switches']]],
   ['pop_5fback_14',['pop_back',['../d5/db2/class_vector.html#adcba035109febbe55cba2a25f8483ba6',1,'Vector']]],
-  ['print_15',['Print',['../d3/d42/class_logger.html#ad1cd558b1eebf32fe8c266e6136833fa',1,'Logger::Print(char *string, LogLevel logLevel=LOG_INFO, const LogTimeStruct *timeToLog=nullptr, bool shouldHaveNewLine=true)'],['../d3/d42/class_logger.html#a3e843e2ea0f996e75906ccd33af0a97d',1,'Logger::Print(char *string, LogLevel logLevel=LOG_INFO, const LogTimeStruct *timeToLog=nullptr, bool shouldHaveNewLine=true)']]],
+  ['print_15',['Print',['../d3/d42/class_logger.html#ad1cd558b1eebf32fe8c266e6136833fa',1,'Logger']]],
   ['printallpacketdata_16',['PrintAllPacketData',['../d5/de8/class_radio_packet.html#ac940ca552de756cdcdf0563b3f3a5c71',1,'RadioPacket']]],
   ['printallreadings_17',['PrintAllReadings',['../d6/d76/class_altimeter.html#a274b6fb8f1abd163f4b1f084b90811ab',1,'Altimeter']]],
   ['printdatetime_18',['PrintDateTime',['../d1/d58/class_g_p_s.html#ac954848ac4b4d88b09aa90b20f25225a',1,'GPS']]],
