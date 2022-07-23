@@ -83,6 +83,8 @@ $(document).ready(function(){initNavTree('de/dce/class_switches.html','../../');
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="../../d4/d22/class_switches-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Switches Class Reference</div></div>
@@ -91,51 +93,158 @@ $(document).ready(function(){initNavTree('de/dce/class_switches.html','../../');
 
 <p><code>#include &lt;<a class="el" href="../../dc/d66/_switches_8h_source.html">Switches.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a4d28a816677e0be4b5782d034ba571a9"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#a4d28a816677e0be4b5782d034ba571a9">SwitchIds</a> : uint16_t { <br />
+&#160;&#160;<a class="el" href="../../de/dce/class_switches.html#a4d28a816677e0be4b5782d034ba571a9a3595a4579841cd1666788236e9e46641">PB_MISSION_0_ID</a> = 0
+, <a class="el" href="../../de/dce/class_switches.html#a4d28a816677e0be4b5782d034ba571a9a10f3414487a15a40910cfd4d7403bb49">PB_MISSION_1_ID</a> = 1
+, <a class="el" href="../../de/dce/class_switches.html#a4d28a816677e0be4b5782d034ba571a9a19ece88049ad98860f7a7360713fa1e1">PB_MISSION_2_ID</a> = 2
+, <a class="el" href="../../de/dce/class_switches.html#a4d28a816677e0be4b5782d034ba571a9a2c7115b9ea014582efd114d0e4f71e40">PB_MISSION_3_ID</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="../../de/dce/class_switches.html#a4d28a816677e0be4b5782d034ba571a9adc0891c83475844aab1aab1238994612">PB_MISSION_4_ID</a> = 4
+, <a class="el" href="../../de/dce/class_switches.html#a4d28a816677e0be4b5782d034ba571a9a406b651cdb6d276fe0b9b2db75062c1a">PB_MISSION_5_ID</a> = 5
+, <a class="el" href="../../de/dce/class_switches.html#a4d28a816677e0be4b5782d034ba571a9a71f46c64a4a426250b3ad3891b93099b">PB_MISSION_6_ID</a> = 6
+, <a class="el" href="../../de/dce/class_switches.html#a4d28a816677e0be4b5782d034ba571a9afa7e85a34eb6ccf6b6433e3d26e9a356">PB_STATUS_0_ID</a> = 7
+, <br />
+&#160;&#160;<a class="el" href="../../de/dce/class_switches.html#a4d28a816677e0be4b5782d034ba571a9aad72d9d430ab59d1af8198ad2a08e6ee">PB_STATUS_1_ID</a> = 8
+, <a class="el" href="../../de/dce/class_switches.html#a4d28a816677e0be4b5782d034ba571a9a035a9dfd804ced985c5a8a310e46c78c">PB_MODE_0_ID</a> = 9
+, <a class="el" href="../../de/dce/class_switches.html#a4d28a816677e0be4b5782d034ba571a9a69688695dda3f3d1db874e1b2145693f">PB_MODE_1_ID</a> = 10
+, <a class="el" href="../../de/dce/class_switches.html#a4d28a816677e0be4b5782d034ba571a9af3d7c4659eaf8743c7df5e903481742e">PB_MODE_2_ID</a> = 11
+, <br />
+&#160;&#160;<a class="el" href="../../de/dce/class_switches.html#a4d28a816677e0be4b5782d034ba571a9ab0f63f8e202ca29bb15bd6bf90d89dae">PB_MODE_3_ID</a> = 12
+, <a class="el" href="../../de/dce/class_switches.html#a4d28a816677e0be4b5782d034ba571a9a83e4af4d381924c9fa91d332a83468e0">TGS_MISSION_0_ID</a> = 13
+, <a class="el" href="../../de/dce/class_switches.html#a4d28a816677e0be4b5782d034ba571a9af72259b7fd563e641938f4be0a3a7c10">TGS_MISSION_1_ID</a> = 14
+, <a class="el" href="../../de/dce/class_switches.html#a4d28a816677e0be4b5782d034ba571a9a482ff54996a6d0f9f86388634229f672">MSL_0_ID</a> = 15
+, <br />
+&#160;&#160;<a class="el" href="../../de/dce/class_switches.html#a4d28a816677e0be4b5782d034ba571a9a079789e7ca7e6ef75fd8e16e1e115226">MSL_1_ID</a> = 16
+, <a class="el" href="../../de/dce/class_switches.html#a4d28a816677e0be4b5782d034ba571a9ac503131c11c01a6e058b561984be8c1c">MSL_2_ID</a> = 17
+<br />
+ }</td></tr>
+<tr class="separator:a4d28a816677e0be4b5782d034ba571a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6958d458fda30b0e1b3d590cb94f0711"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#a6958d458fda30b0e1b3d590cb94f0711">SwitchStates</a> : uint16_t { <a class="el" href="../../de/dce/class_switches.html#a6958d458fda30b0e1b3d590cb94f0711a696b031073e74bf2cb98e5ef201d4aa3">UNKNOWN</a> = 0
+, <a class="el" href="../../de/dce/class_switches.html#a6958d458fda30b0e1b3d590cb94f0711a67263b8748fa0f901f750cc1ba81968a">UNPRESSED</a> = 1
+, <a class="el" href="../../de/dce/class_switches.html#a6958d458fda30b0e1b3d590cb94f0711a5381dc876ab002103a027265bc14ae52">PRESSED</a> = 2
+ }</td></tr>
+<tr class="separator:a6958d458fda30b0e1b3d590cb94f0711"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a2cd89cd00ee76c5bef19a48d9343c567"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#a2cd89cd00ee76c5bef19a48d9343c567">WriteChangedStates</a> ()</td></tr>
+<tr class="memdesc:a2cd89cd00ee76c5bef19a48d9343c567"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a ButtonHandler Serial Packet if any of the buttons are pressed.  <a href="../../de/dce/class_switches.html#a2cd89cd00ee76c5bef19a48d9343c567">More...</a><br /></td></tr>
+<tr class="separator:a2cd89cd00ee76c5bef19a48d9343c567"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f5ab7a22f3e10ced639b9ec5b3acb79"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#a7f5ab7a22f3e10ced639b9ec5b3acb79">PrintIfAnyPressed</a> ()</td></tr>
 <tr class="memdesc:a7f5ab7a22f3e10ced639b9ec5b3acb79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints a serial line for each of the switches that are pressed.  <a href="../../de/dce/class_switches.html#a7f5ab7a22f3e10ced639b9ec5b3acb79">More...</a><br /></td></tr>
 <tr class="separator:a7f5ab7a22f3e10ced639b9ec5b3acb79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ba9878d62f27d5618da05d29b4ed800"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#a9ba9878d62f27d5618da05d29b4ed800">PB_MISSION_0_Pressed</a> ()</td></tr>
-<tr class="separator:a9ba9878d62f27d5618da05d29b4ed800"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71d31ffc31ab55ca81c937e3442f6afa"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#a71d31ffc31ab55ca81c937e3442f6afa">PB_MISSION_1_Pressed</a> ()</td></tr>
-<tr class="separator:a71d31ffc31ab55ca81c937e3442f6afa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85a09e009a0f5b92e5b599e50bb3a3a9"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#a85a09e009a0f5b92e5b599e50bb3a3a9">PB_MISSION_2_Pressed</a> ()</td></tr>
-<tr class="separator:a85a09e009a0f5b92e5b599e50bb3a3a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0833981f9642dacc4349b957271d60af"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#a0833981f9642dacc4349b957271d60af">PB_MISSION_3_Pressed</a> ()</td></tr>
-<tr class="separator:a0833981f9642dacc4349b957271d60af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac998495f613ff85026347d780575fcb3"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#ac998495f613ff85026347d780575fcb3">PB_MISSION_4_Pressed</a> ()</td></tr>
-<tr class="separator:ac998495f613ff85026347d780575fcb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab48b6b877dcdf79e295b98405b4d59bf"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#ab48b6b877dcdf79e295b98405b4d59bf">PB_MISSION_5_Pressed</a> ()</td></tr>
-<tr class="separator:ab48b6b877dcdf79e295b98405b4d59bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef8dac65f29b0ed093e1bf75889dc850"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#aef8dac65f29b0ed093e1bf75889dc850">PB_MISSION_6_Pressed</a> ()</td></tr>
-<tr class="separator:aef8dac65f29b0ed093e1bf75889dc850"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e71056835245f32c8c50ad89f9845a7"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#a2e71056835245f32c8c50ad89f9845a7">PB_STATUS_0_Pressed</a> ()</td></tr>
-<tr class="separator:a2e71056835245f32c8c50ad89f9845a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abdcdcb02bb67f6f902a583ff1b57964e"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#abdcdcb02bb67f6f902a583ff1b57964e">PB_STATUS_1_Pressed</a> ()</td></tr>
-<tr class="separator:abdcdcb02bb67f6f902a583ff1b57964e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a744c66eaf0bbcd819f38c25d4dde3305"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#a744c66eaf0bbcd819f38c25d4dde3305">PB_MODE_0_Pressed</a> ()</td></tr>
-<tr class="separator:a744c66eaf0bbcd819f38c25d4dde3305"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ea8de6feaf26b6ae89f3f628dec0ac3"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#a7ea8de6feaf26b6ae89f3f628dec0ac3">PB_MODE_1_Pressed</a> ()</td></tr>
-<tr class="separator:a7ea8de6feaf26b6ae89f3f628dec0ac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5caf083dcc7c08eb9469190dd4bb5e61"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#a5caf083dcc7c08eb9469190dd4bb5e61">PB_MODE_2_Pressed</a> ()</td></tr>
-<tr class="separator:a5caf083dcc7c08eb9469190dd4bb5e61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa80ee640c69f704f98a79ebb07662941"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#aa80ee640c69f704f98a79ebb07662941">PB_MODE_3_Pressed</a> ()</td></tr>
-<tr class="separator:aa80ee640c69f704f98a79ebb07662941"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa186fee9bd86667a5616a1390aec3654"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#aa186fee9bd86667a5616a1390aec3654">TGS_MISSION_0_Pressed</a> ()</td></tr>
-<tr class="separator:aa186fee9bd86667a5616a1390aec3654"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c173f4ef9e408e9e31e5f8d6672f259"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#a7c173f4ef9e408e9e31e5f8d6672f259">TGS_MISSION_1_Pressed</a> ()</td></tr>
-<tr class="separator:a7c173f4ef9e408e9e31e5f8d6672f259"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51f0504ea0fe99c3602df8177c75cae4"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#a51f0504ea0fe99c3602df8177c75cae4">MSL_0_Pressed</a> ()</td></tr>
-<tr class="separator:a51f0504ea0fe99c3602df8177c75cae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2bc664fa6d0559223d5fe82182846a3f"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#a2bc664fa6d0559223d5fe82182846a3f">MSL_1_Pressed</a> ()</td></tr>
-<tr class="separator:a2bc664fa6d0559223d5fe82182846a3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96b28dcdc8b58c6b15ec93f606efca60"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#a96b28dcdc8b58c6b15ec93f606efca60">MSL_2_Pressed</a> ()</td></tr>
-<tr class="separator:a96b28dcdc8b58c6b15ec93f606efca60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b630e1e6658d808de6bf387c6692166"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#a8b630e1e6658d808de6bf387c6692166">PB_MISSION_0_Pressed</a> ()</td></tr>
+<tr class="separator:a8b630e1e6658d808de6bf387c6692166"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0a469ffbe36bc8889bd0d006da76f43"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#af0a469ffbe36bc8889bd0d006da76f43">PB_MISSION_1_Pressed</a> ()</td></tr>
+<tr class="separator:af0a469ffbe36bc8889bd0d006da76f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef99ec9a995e1e57444761eed1c274e6"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#aef99ec9a995e1e57444761eed1c274e6">PB_MISSION_2_Pressed</a> ()</td></tr>
+<tr class="separator:aef99ec9a995e1e57444761eed1c274e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4145e7683202b72ecc9307c516d9760"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#ad4145e7683202b72ecc9307c516d9760">PB_MISSION_3_Pressed</a> ()</td></tr>
+<tr class="separator:ad4145e7683202b72ecc9307c516d9760"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbdebc23d975da17611fabd903f6c001"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#acbdebc23d975da17611fabd903f6c001">PB_MISSION_4_Pressed</a> ()</td></tr>
+<tr class="separator:acbdebc23d975da17611fabd903f6c001"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84c1eb13e319981e1deecc7948510039"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#a84c1eb13e319981e1deecc7948510039">PB_MISSION_5_Pressed</a> ()</td></tr>
+<tr class="separator:a84c1eb13e319981e1deecc7948510039"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3745f106a1440602e58c15c8c962d6d0"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#a3745f106a1440602e58c15c8c962d6d0">PB_MISSION_6_Pressed</a> ()</td></tr>
+<tr class="separator:a3745f106a1440602e58c15c8c962d6d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad33e807d9bbcc90ede39cea5aa3e7321"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#ad33e807d9bbcc90ede39cea5aa3e7321">PB_STATUS_0_Pressed</a> ()</td></tr>
+<tr class="separator:ad33e807d9bbcc90ede39cea5aa3e7321"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74178deeb9f06e03d326bb7fb7e35820"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#a74178deeb9f06e03d326bb7fb7e35820">PB_STATUS_1_Pressed</a> ()</td></tr>
+<tr class="separator:a74178deeb9f06e03d326bb7fb7e35820"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7498c880f4e5594607094cc786bd1b5"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#aa7498c880f4e5594607094cc786bd1b5">PB_MODE_0_Pressed</a> ()</td></tr>
+<tr class="separator:aa7498c880f4e5594607094cc786bd1b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4c8e3749fda0675065684caf45cc926"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#ae4c8e3749fda0675065684caf45cc926">PB_MODE_1_Pressed</a> ()</td></tr>
+<tr class="separator:ae4c8e3749fda0675065684caf45cc926"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50cba4a3245fce8919f4df6c94c71658"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#a50cba4a3245fce8919f4df6c94c71658">PB_MODE_2_Pressed</a> ()</td></tr>
+<tr class="separator:a50cba4a3245fce8919f4df6c94c71658"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5ebf7823bb74afeb6007d6795d7857b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#ad5ebf7823bb74afeb6007d6795d7857b">PB_MODE_3_Pressed</a> ()</td></tr>
+<tr class="separator:ad5ebf7823bb74afeb6007d6795d7857b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9fd590715caaf57b05785de145a98f4"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#aa9fd590715caaf57b05785de145a98f4">TGS_MISSION_0_Pressed</a> ()</td></tr>
+<tr class="separator:aa9fd590715caaf57b05785de145a98f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a920d0c0374f6f2b28926f9ef237b2724"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#a920d0c0374f6f2b28926f9ef237b2724">TGS_MISSION_1_Pressed</a> ()</td></tr>
+<tr class="separator:a920d0c0374f6f2b28926f9ef237b2724"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a049b785fef27edcb9dd2209a0d3ea8d9"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#a049b785fef27edcb9dd2209a0d3ea8d9">MSL_0_Pressed</a> ()</td></tr>
+<tr class="separator:a049b785fef27edcb9dd2209a0d3ea8d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a447e31afa2d11cba6a5bbcef6010d95f"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#a447e31afa2d11cba6a5bbcef6010d95f">MSL_1_Pressed</a> ()</td></tr>
+<tr class="separator:a447e31afa2d11cba6a5bbcef6010d95f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac50de10e1ae94615a0a3c53cce8746f5"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/class_switches.html#ac50de10e1ae94615a0a3c53cce8746f5">MSL_2_Pressed</a> ()</td></tr>
+<tr class="separator:ac50de10e1ae94615a0a3c53cce8746f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a4d28a816677e0be4b5782d034ba571a9" name="a4d28a816677e0be4b5782d034ba571a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d28a816677e0be4b5782d034ba571a9">&#9670;&nbsp;</a></span>SwitchIds</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="../../de/dce/class_switches.html#a4d28a816677e0be4b5782d034ba571a9">Switches::SwitchIds</a> : uint16_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4d28a816677e0be4b5782d034ba571a9a3595a4579841cd1666788236e9e46641" name="a4d28a816677e0be4b5782d034ba571a9a3595a4579841cd1666788236e9e46641"></a>PB_MISSION_0_ID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d28a816677e0be4b5782d034ba571a9a10f3414487a15a40910cfd4d7403bb49" name="a4d28a816677e0be4b5782d034ba571a9a10f3414487a15a40910cfd4d7403bb49"></a>PB_MISSION_1_ID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d28a816677e0be4b5782d034ba571a9a19ece88049ad98860f7a7360713fa1e1" name="a4d28a816677e0be4b5782d034ba571a9a19ece88049ad98860f7a7360713fa1e1"></a>PB_MISSION_2_ID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d28a816677e0be4b5782d034ba571a9a2c7115b9ea014582efd114d0e4f71e40" name="a4d28a816677e0be4b5782d034ba571a9a2c7115b9ea014582efd114d0e4f71e40"></a>PB_MISSION_3_ID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d28a816677e0be4b5782d034ba571a9adc0891c83475844aab1aab1238994612" name="a4d28a816677e0be4b5782d034ba571a9adc0891c83475844aab1aab1238994612"></a>PB_MISSION_4_ID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d28a816677e0be4b5782d034ba571a9a406b651cdb6d276fe0b9b2db75062c1a" name="a4d28a816677e0be4b5782d034ba571a9a406b651cdb6d276fe0b9b2db75062c1a"></a>PB_MISSION_5_ID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d28a816677e0be4b5782d034ba571a9a71f46c64a4a426250b3ad3891b93099b" name="a4d28a816677e0be4b5782d034ba571a9a71f46c64a4a426250b3ad3891b93099b"></a>PB_MISSION_6_ID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d28a816677e0be4b5782d034ba571a9afa7e85a34eb6ccf6b6433e3d26e9a356" name="a4d28a816677e0be4b5782d034ba571a9afa7e85a34eb6ccf6b6433e3d26e9a356"></a>PB_STATUS_0_ID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d28a816677e0be4b5782d034ba571a9aad72d9d430ab59d1af8198ad2a08e6ee" name="a4d28a816677e0be4b5782d034ba571a9aad72d9d430ab59d1af8198ad2a08e6ee"></a>PB_STATUS_1_ID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d28a816677e0be4b5782d034ba571a9a035a9dfd804ced985c5a8a310e46c78c" name="a4d28a816677e0be4b5782d034ba571a9a035a9dfd804ced985c5a8a310e46c78c"></a>PB_MODE_0_ID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d28a816677e0be4b5782d034ba571a9a69688695dda3f3d1db874e1b2145693f" name="a4d28a816677e0be4b5782d034ba571a9a69688695dda3f3d1db874e1b2145693f"></a>PB_MODE_1_ID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d28a816677e0be4b5782d034ba571a9af3d7c4659eaf8743c7df5e903481742e" name="a4d28a816677e0be4b5782d034ba571a9af3d7c4659eaf8743c7df5e903481742e"></a>PB_MODE_2_ID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d28a816677e0be4b5782d034ba571a9ab0f63f8e202ca29bb15bd6bf90d89dae" name="a4d28a816677e0be4b5782d034ba571a9ab0f63f8e202ca29bb15bd6bf90d89dae"></a>PB_MODE_3_ID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d28a816677e0be4b5782d034ba571a9a83e4af4d381924c9fa91d332a83468e0" name="a4d28a816677e0be4b5782d034ba571a9a83e4af4d381924c9fa91d332a83468e0"></a>TGS_MISSION_0_ID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d28a816677e0be4b5782d034ba571a9af72259b7fd563e641938f4be0a3a7c10" name="a4d28a816677e0be4b5782d034ba571a9af72259b7fd563e641938f4be0a3a7c10"></a>TGS_MISSION_1_ID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d28a816677e0be4b5782d034ba571a9a482ff54996a6d0f9f86388634229f672" name="a4d28a816677e0be4b5782d034ba571a9a482ff54996a6d0f9f86388634229f672"></a>MSL_0_ID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d28a816677e0be4b5782d034ba571a9a079789e7ca7e6ef75fd8e16e1e115226" name="a4d28a816677e0be4b5782d034ba571a9a079789e7ca7e6ef75fd8e16e1e115226"></a>MSL_1_ID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4d28a816677e0be4b5782d034ba571a9ac503131c11c01a6e058b561984be8c1c" name="a4d28a816677e0be4b5782d034ba571a9ac503131c11c01a6e058b561984be8c1c"></a>MSL_2_ID&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a6958d458fda30b0e1b3d590cb94f0711" name="a6958d458fda30b0e1b3d590cb94f0711"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6958d458fda30b0e1b3d590cb94f0711">&#9670;&nbsp;</a></span>SwitchStates</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="../../de/dce/class_switches.html#a6958d458fda30b0e1b3d590cb94f0711">Switches::SwitchStates</a> : uint16_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6958d458fda30b0e1b3d590cb94f0711a696b031073e74bf2cb98e5ef201d4aa3" name="a6958d458fda30b0e1b3d590cb94f0711a696b031073e74bf2cb98e5ef201d4aa3"></a>UNKNOWN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6958d458fda30b0e1b3d590cb94f0711a67263b8748fa0f901f750cc1ba81968a" name="a6958d458fda30b0e1b3d590cb94f0711a67263b8748fa0f901f750cc1ba81968a"></a>UNPRESSED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6958d458fda30b0e1b3d590cb94f0711a5381dc876ab002103a027265bc14ae52" name="a6958d458fda30b0e1b3d590cb94f0711a5381dc876ab002103a027265bc14ae52"></a>PRESSED&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a51f0504ea0fe99c3602df8177c75cae4" name="a51f0504ea0fe99c3602df8177c75cae4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51f0504ea0fe99c3602df8177c75cae4">&#9670;&nbsp;</a></span>MSL_0_Pressed()</h2>
+<a id="a049b785fef27edcb9dd2209a0d3ea8d9" name="a049b785fef27edcb9dd2209a0d3ea8d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a049b785fef27edcb9dd2209a0d3ea8d9">&#9670;&nbsp;</a></span>MSL_0_Pressed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144,7 +253,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Switches::MSL_0_Pressed </td>
+          <td class="memname">static bool Switches::MSL_0_Pressed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -152,15 +261,15 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a2bc664fa6d0559223d5fe82182846a3f" name="a2bc664fa6d0559223d5fe82182846a3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2bc664fa6d0559223d5fe82182846a3f">&#9670;&nbsp;</a></span>MSL_1_Pressed()</h2>
+<a id="a447e31afa2d11cba6a5bbcef6010d95f" name="a447e31afa2d11cba6a5bbcef6010d95f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a447e31afa2d11cba6a5bbcef6010d95f">&#9670;&nbsp;</a></span>MSL_1_Pressed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -169,7 +278,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Switches::MSL_1_Pressed </td>
+          <td class="memname">static bool Switches::MSL_1_Pressed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -177,15 +286,15 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a96b28dcdc8b58c6b15ec93f606efca60" name="a96b28dcdc8b58c6b15ec93f606efca60"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96b28dcdc8b58c6b15ec93f606efca60">&#9670;&nbsp;</a></span>MSL_2_Pressed()</h2>
+<a id="ac50de10e1ae94615a0a3c53cce8746f5" name="ac50de10e1ae94615a0a3c53cce8746f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac50de10e1ae94615a0a3c53cce8746f5">&#9670;&nbsp;</a></span>MSL_2_Pressed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -194,7 +303,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Switches::MSL_2_Pressed </td>
+          <td class="memname">static bool Switches::MSL_2_Pressed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -202,15 +311,15 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a9ba9878d62f27d5618da05d29b4ed800" name="a9ba9878d62f27d5618da05d29b4ed800"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ba9878d62f27d5618da05d29b4ed800">&#9670;&nbsp;</a></span>PB_MISSION_0_Pressed()</h2>
+<a id="a8b630e1e6658d808de6bf387c6692166" name="a8b630e1e6658d808de6bf387c6692166"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b630e1e6658d808de6bf387c6692166">&#9670;&nbsp;</a></span>PB_MISSION_0_Pressed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -219,7 +328,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Switches::PB_MISSION_0_Pressed </td>
+          <td class="memname">static bool Switches::PB_MISSION_0_Pressed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -227,15 +336,15 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a71d31ffc31ab55ca81c937e3442f6afa" name="a71d31ffc31ab55ca81c937e3442f6afa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71d31ffc31ab55ca81c937e3442f6afa">&#9670;&nbsp;</a></span>PB_MISSION_1_Pressed()</h2>
+<a id="af0a469ffbe36bc8889bd0d006da76f43" name="af0a469ffbe36bc8889bd0d006da76f43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0a469ffbe36bc8889bd0d006da76f43">&#9670;&nbsp;</a></span>PB_MISSION_1_Pressed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -244,7 +353,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Switches::PB_MISSION_1_Pressed </td>
+          <td class="memname">static bool Switches::PB_MISSION_1_Pressed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -252,15 +361,15 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a85a09e009a0f5b92e5b599e50bb3a3a9" name="a85a09e009a0f5b92e5b599e50bb3a3a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85a09e009a0f5b92e5b599e50bb3a3a9">&#9670;&nbsp;</a></span>PB_MISSION_2_Pressed()</h2>
+<a id="aef99ec9a995e1e57444761eed1c274e6" name="aef99ec9a995e1e57444761eed1c274e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef99ec9a995e1e57444761eed1c274e6">&#9670;&nbsp;</a></span>PB_MISSION_2_Pressed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -269,7 +378,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Switches::PB_MISSION_2_Pressed </td>
+          <td class="memname">static bool Switches::PB_MISSION_2_Pressed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -277,15 +386,15 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a0833981f9642dacc4349b957271d60af" name="a0833981f9642dacc4349b957271d60af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0833981f9642dacc4349b957271d60af">&#9670;&nbsp;</a></span>PB_MISSION_3_Pressed()</h2>
+<a id="ad4145e7683202b72ecc9307c516d9760" name="ad4145e7683202b72ecc9307c516d9760"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4145e7683202b72ecc9307c516d9760">&#9670;&nbsp;</a></span>PB_MISSION_3_Pressed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -294,7 +403,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Switches::PB_MISSION_3_Pressed </td>
+          <td class="memname">static bool Switches::PB_MISSION_3_Pressed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -302,15 +411,15 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ac998495f613ff85026347d780575fcb3" name="ac998495f613ff85026347d780575fcb3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac998495f613ff85026347d780575fcb3">&#9670;&nbsp;</a></span>PB_MISSION_4_Pressed()</h2>
+<a id="acbdebc23d975da17611fabd903f6c001" name="acbdebc23d975da17611fabd903f6c001"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbdebc23d975da17611fabd903f6c001">&#9670;&nbsp;</a></span>PB_MISSION_4_Pressed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -319,7 +428,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Switches::PB_MISSION_4_Pressed </td>
+          <td class="memname">static bool Switches::PB_MISSION_4_Pressed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -327,15 +436,15 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ab48b6b877dcdf79e295b98405b4d59bf" name="ab48b6b877dcdf79e295b98405b4d59bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab48b6b877dcdf79e295b98405b4d59bf">&#9670;&nbsp;</a></span>PB_MISSION_5_Pressed()</h2>
+<a id="a84c1eb13e319981e1deecc7948510039" name="a84c1eb13e319981e1deecc7948510039"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84c1eb13e319981e1deecc7948510039">&#9670;&nbsp;</a></span>PB_MISSION_5_Pressed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -344,7 +453,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Switches::PB_MISSION_5_Pressed </td>
+          <td class="memname">static bool Switches::PB_MISSION_5_Pressed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -352,15 +461,15 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aef8dac65f29b0ed093e1bf75889dc850" name="aef8dac65f29b0ed093e1bf75889dc850"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef8dac65f29b0ed093e1bf75889dc850">&#9670;&nbsp;</a></span>PB_MISSION_6_Pressed()</h2>
+<a id="a3745f106a1440602e58c15c8c962d6d0" name="a3745f106a1440602e58c15c8c962d6d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3745f106a1440602e58c15c8c962d6d0">&#9670;&nbsp;</a></span>PB_MISSION_6_Pressed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -369,7 +478,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Switches::PB_MISSION_6_Pressed </td>
+          <td class="memname">static bool Switches::PB_MISSION_6_Pressed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -377,15 +486,15 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a744c66eaf0bbcd819f38c25d4dde3305" name="a744c66eaf0bbcd819f38c25d4dde3305"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a744c66eaf0bbcd819f38c25d4dde3305">&#9670;&nbsp;</a></span>PB_MODE_0_Pressed()</h2>
+<a id="aa7498c880f4e5594607094cc786bd1b5" name="aa7498c880f4e5594607094cc786bd1b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7498c880f4e5594607094cc786bd1b5">&#9670;&nbsp;</a></span>PB_MODE_0_Pressed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -394,7 +503,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Switches::PB_MODE_0_Pressed </td>
+          <td class="memname">static bool Switches::PB_MODE_0_Pressed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -402,15 +511,15 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a7ea8de6feaf26b6ae89f3f628dec0ac3" name="a7ea8de6feaf26b6ae89f3f628dec0ac3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ea8de6feaf26b6ae89f3f628dec0ac3">&#9670;&nbsp;</a></span>PB_MODE_1_Pressed()</h2>
+<a id="ae4c8e3749fda0675065684caf45cc926" name="ae4c8e3749fda0675065684caf45cc926"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4c8e3749fda0675065684caf45cc926">&#9670;&nbsp;</a></span>PB_MODE_1_Pressed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -419,7 +528,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Switches::PB_MODE_1_Pressed </td>
+          <td class="memname">static bool Switches::PB_MODE_1_Pressed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -427,15 +536,15 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a5caf083dcc7c08eb9469190dd4bb5e61" name="a5caf083dcc7c08eb9469190dd4bb5e61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5caf083dcc7c08eb9469190dd4bb5e61">&#9670;&nbsp;</a></span>PB_MODE_2_Pressed()</h2>
+<a id="a50cba4a3245fce8919f4df6c94c71658" name="a50cba4a3245fce8919f4df6c94c71658"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50cba4a3245fce8919f4df6c94c71658">&#9670;&nbsp;</a></span>PB_MODE_2_Pressed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -444,7 +553,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Switches::PB_MODE_2_Pressed </td>
+          <td class="memname">static bool Switches::PB_MODE_2_Pressed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -452,15 +561,15 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aa80ee640c69f704f98a79ebb07662941" name="aa80ee640c69f704f98a79ebb07662941"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa80ee640c69f704f98a79ebb07662941">&#9670;&nbsp;</a></span>PB_MODE_3_Pressed()</h2>
+<a id="ad5ebf7823bb74afeb6007d6795d7857b" name="ad5ebf7823bb74afeb6007d6795d7857b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5ebf7823bb74afeb6007d6795d7857b">&#9670;&nbsp;</a></span>PB_MODE_3_Pressed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -469,7 +578,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Switches::PB_MODE_3_Pressed </td>
+          <td class="memname">static bool Switches::PB_MODE_3_Pressed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -477,15 +586,15 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a2e71056835245f32c8c50ad89f9845a7" name="a2e71056835245f32c8c50ad89f9845a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e71056835245f32c8c50ad89f9845a7">&#9670;&nbsp;</a></span>PB_STATUS_0_Pressed()</h2>
+<a id="ad33e807d9bbcc90ede39cea5aa3e7321" name="ad33e807d9bbcc90ede39cea5aa3e7321"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad33e807d9bbcc90ede39cea5aa3e7321">&#9670;&nbsp;</a></span>PB_STATUS_0_Pressed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -494,7 +603,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Switches::PB_STATUS_0_Pressed </td>
+          <td class="memname">static bool Switches::PB_STATUS_0_Pressed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -502,15 +611,15 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="abdcdcb02bb67f6f902a583ff1b57964e" name="abdcdcb02bb67f6f902a583ff1b57964e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abdcdcb02bb67f6f902a583ff1b57964e">&#9670;&nbsp;</a></span>PB_STATUS_1_Pressed()</h2>
+<a id="a74178deeb9f06e03d326bb7fb7e35820" name="a74178deeb9f06e03d326bb7fb7e35820"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74178deeb9f06e03d326bb7fb7e35820">&#9670;&nbsp;</a></span>PB_STATUS_1_Pressed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -519,7 +628,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Switches::PB_STATUS_1_Pressed </td>
+          <td class="memname">static bool Switches::PB_STATUS_1_Pressed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -527,7 +636,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -561,8 +670,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aa186fee9bd86667a5616a1390aec3654" name="aa186fee9bd86667a5616a1390aec3654"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa186fee9bd86667a5616a1390aec3654">&#9670;&nbsp;</a></span>TGS_MISSION_0_Pressed()</h2>
+<a id="aa9fd590715caaf57b05785de145a98f4" name="aa9fd590715caaf57b05785de145a98f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9fd590715caaf57b05785de145a98f4">&#9670;&nbsp;</a></span>TGS_MISSION_0_Pressed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -571,7 +680,57 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Switches::TGS_MISSION_0_Pressed </td>
+          <td class="memname">static bool Switches::TGS_MISSION_0_Pressed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a920d0c0374f6f2b28926f9ef237b2724" name="a920d0c0374f6f2b28926f9ef237b2724"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a920d0c0374f6f2b28926f9ef237b2724">&#9670;&nbsp;</a></span>TGS_MISSION_1_Pressed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool Switches::TGS_MISSION_1_Pressed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2cd89cd00ee76c5bef19a48d9343c567" name="a2cd89cd00ee76c5bef19a48d9343c567"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cd89cd00ee76c5bef19a48d9343c567">&#9670;&nbsp;</a></span>WriteChangedStates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Switches::WriteChangedStates </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -584,30 +743,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a7c173f4ef9e408e9e31e5f8d6672f259" name="a7c173f4ef9e408e9e31e5f8d6672f259"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c173f4ef9e408e9e31e5f8d6672f259">&#9670;&nbsp;</a></span>TGS_MISSION_1_Pressed()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Switches::TGS_MISSION_1_Pressed </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Writes a ButtonHandler Serial Packet if any of the buttons are pressed. </p>
 
 </div>
 </div>

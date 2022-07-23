@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['latitude_0',['latitude',['../dd/d56/struct_g_p_s_1_1gps_location.html#a65b372147488a6881f831384f2de472f',1,'GPS::gpsLocation::latitude()'],['../df/d64/struct_radio_packet_1_1gps_coords_packet_data.html#a1b6c2b4f0784df28667e6c48061f6304',1,'RadioPacket::gpsCoordsPacketData::latitude()']]],
-  ['longitude_1',['longitude',['../dd/d56/struct_g_p_s_1_1gps_location.html#abca14694f5a1d665b0a3e2ea43b91f21',1,'GPS::gpsLocation::longitude()'],['../df/d64/struct_radio_packet_1_1gps_coords_packet_data.html#a4a046baf0bd505c66cffdb8d98410e68',1,'RadioPacket::gpsCoordsPacketData::longitude()']]]
+  ['int1_0',['int1',['../d0/df2/struct_serial_packets_1_1test_packet_data.html#ac545cf93a7f10594aec326f9c7fd9693',1,'SerialPackets::testPacketData']]],
+  ['int16data_1',['int16Data',['../d2/d55/union_radio_packet_1_1packet_payload_type.html#aab0e2c6f1f02cde423351c8015a3670a',1,'RadioPacket::packetPayloadType']]],
+  ['int32data_2',['int32Data',['../d2/d55/union_radio_packet_1_1packet_payload_type.html#a7b70fd2fc58983d2e23c9acbd849871a',1,'RadioPacket::packetPayloadType']]],
+  ['int8data_3',['int8Data',['../d2/d55/union_radio_packet_1_1packet_payload_type.html#a4584e97d74c3f4ffb566a8c82e472ec2',1,'RadioPacket::packetPayloadType']]]
 ];

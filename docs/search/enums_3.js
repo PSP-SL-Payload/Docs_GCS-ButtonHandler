@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['serialpacketids_0',['SerialPacketIDs',['../d8/dec/class_serial_interface.html#a66e8916a60fd7e51680e2330ee46ae89',1,'SerialInterface']]]
+  ['radiopacketmode_0',['radioPacketMode',['../d9/d7a/class_t_f_t.html#a4225719b502bc02af5d4baae4f156509',1,'TFT']]],
+  ['radiopacketmodecolor_1',['radioPacketModeColor',['../d9/d7a/class_t_f_t.html#aba1420b1c7b1cd0a914a5febed9cbfcf',1,'TFT']]]
 ];

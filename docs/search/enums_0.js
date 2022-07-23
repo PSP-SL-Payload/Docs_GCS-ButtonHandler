@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loglevel_0',['LogLevel',['../d3/d42/class_logger.html#ac744681e23720966b5f430ec2060da36',1,'Logger']]]
+  ['buttonhandlerserialpacketids_0',['ButtonHandlerSerialPacketIDs',['../da/dc6/class_button_handler_serial_packets.html#a36c0aa3ee2ad52bce882bf2e45e28db6',1,'ButtonHandlerSerialPackets']]]
 ];
