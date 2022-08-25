@@ -13,5 +13,7 @@ var searchData=
   ['pb_5fmode_5f3_5fid_10',['PB_MODE_3_ID',['../de/dce/class_switches.html#a4d28a816677e0be4b5782d034ba571a9ab0f63f8e202ca29bb15bd6bf90d89dae',1,'Switches']]],
   ['pb_5fstatus_5f0_5fid_11',['PB_STATUS_0_ID',['../de/dce/class_switches.html#a4d28a816677e0be4b5782d034ba571a9afa7e85a34eb6ccf6b6433e3d26e9a356',1,'Switches']]],
   ['pb_5fstatus_5f1_5fid_12',['PB_STATUS_1_ID',['../de/dce/class_switches.html#a4d28a816677e0be4b5782d034ba571a9aad72d9d430ab59d1af8198ad2a08e6ee',1,'Switches']]],
-  ['pressed_13',['PRESSED',['../de/dce/class_switches.html#a6958d458fda30b0e1b3d590cb94f0711a5381dc876ab002103a027265bc14ae52',1,'Switches']]]
+  ['ping_5freply_5fpacket_5fid_13',['PING_REPLY_PACKET_ID',['../d6/dde/class_serial_packets.html#a7e5a9aedd3d91a8b3c26f6d998edba34afeb1f7556168e7f28923f37e2fd4fc50',1,'SerialPackets']]],
+  ['ping_5frequest_5fpacket_5fid_14',['PING_REQUEST_PACKET_ID',['../d6/dde/class_serial_packets.html#a7e5a9aedd3d91a8b3c26f6d998edba34a6183a07039378868daec3fcad5fb267f',1,'SerialPackets']]],
+  ['pressed_15',['PRESSED',['../de/dce/class_switches.html#a6958d458fda30b0e1b3d590cb94f0711a5381dc876ab002103a027265bc14ae52',1,'Switches']]]
 ];

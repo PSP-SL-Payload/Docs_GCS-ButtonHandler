@@ -171,12 +171,13 @@ $(document).ready(function(){initNavTree('dc/d66/_switches_8h_source.html','../.
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    };</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> ReadSwitchPins(currentSwitchStates &amp;statesRead);</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    <span class="comment">// Holds the most recent state of all switches</span></div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="keyword">static</span> currentSwitchStates currentStates; </div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>};</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> UpdateCurrentStates(<span class="keyword">const</span> currentSwitchStates newStates);</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="comment">// Holds the most recent state of all switches</span></div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keyword">static</span> currentSwitchStates currentStates; </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>};</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclass_switches_html"><div class="ttname"><a href="../../de/dce/class_switches.html">Switches</a></div><div class="ttdef"><b>Definition:</b> Switches.h:7</div></div>
 <div class="ttc" id="aclass_switches_html_a049b785fef27edcb9dd2209a0d3ea8d9"><div class="ttname"><a href="../../de/dce/class_switches.html#a049b785fef27edcb9dd2209a0d3ea8d9">Switches::MSL_0_Pressed</a></div><div class="ttdeci">static bool MSL_0_Pressed()</div><div class="ttdef"><b>Definition:</b> Switches.h:59</div></div>
 <div class="ttc" id="aclass_switches_html_a2cd89cd00ee76c5bef19a48d9343c567"><div class="ttname"><a href="../../de/dce/class_switches.html#a2cd89cd00ee76c5bef19a48d9343c567">Switches::WriteChangedStates</a></div><div class="ttdeci">static void WriteChangedStates()</div><div class="ttdoc">Writes a ButtonHandler Serial Packet if any of the buttons are pressed.</div><div class="ttdef"><b>Definition:</b> Switches.cpp:60</div></div>
