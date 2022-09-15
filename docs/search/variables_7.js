@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['latitude_0',['latitude',['../dd/d56/struct_g_p_s_1_1gps_location.html#a65b372147488a6881f831384f2de472f',1,'GPS::gpsLocation::latitude()'],['../df/d64/struct_radio_packet_1_1gps_coords_packet_data.html#a1b6c2b4f0784df28667e6c48061f6304',1,'RadioPacket::gpsCoordsPacketData::latitude()']]],
-  ['ledid_1',['ledID',['../db/d18/struct_button_handler_serial_packets_1_1led_state_packet_data.html#aeffd613f7394048365c3b232c45a9fcd',1,'ButtonHandlerSerialPackets::ledStatePacketData']]],
-  ['ledids_2',['ledIDs',['../db/d4f/struct_button_handler_serial_packets_1_1multi_led_state_packet_data.html#a4b811597719b7980ec0b8973d41bec77',1,'ButtonHandlerSerialPackets::multiLedStatePacketData']]],
-  ['ledstate_3',['ledState',['../db/d18/struct_button_handler_serial_packets_1_1led_state_packet_data.html#a5ea57d0d95d53e0e2d8bd790acd72e0b',1,'ButtonHandlerSerialPackets::ledStatePacketData']]],
-  ['longitude_4',['longitude',['../dd/d56/struct_g_p_s_1_1gps_location.html#abca14694f5a1d665b0a3e2ea43b91f21',1,'GPS::gpsLocation::longitude()'],['../df/d64/struct_radio_packet_1_1gps_coords_packet_data.html#a4a046baf0bd505c66cffdb8d98410e68',1,'RadioPacket::gpsCoordsPacketData::longitude()']]]
+  ['i_0',['i',['../d3/d11/struct_i_m_u__9_d_o_f_1_1_quaternion.html#a531a9bbb15b1390bc11fcc86bca61379',1,'IMU_9DOF::Quaternion']]],
+  ['imu_1',['imu',['../df/d24/class_i_m_u__6_d_o_f___l_s_m6_d_s_r.html#a17dda1b188a07b135b37d23dd4b02183',1,'IMU_6DOF_LSM6DSR::imu()'],['../d5/d6e/class_i_m_u__6_d_o_f___l_s_m6x.html#a4a604fa4b157e62686109da41a576a0d',1,'IMU_6DOF_LSM6x::imu()'],['../db/d3b/class_i_m_u__9_d_o_f___b_n_o08x.html#a4a3f3991c0dce2d64c1f183bebc35625',1,'IMU_9DOF_BNO08x::imu()'],['../df/d2a/class_i_m_u__9_d_o_f___l_s_m6_d_s33___l_i_s3_m_d_l.html#ac2b9a1d420aa0cfaf2cea2b2ca232c41',1,'IMU_9DOF_LSM6DS33_LIS3MDL::imu()'],['../de/dbd/union_radio_command_handler_1_1_radio_command_return.html#af22baee53e481d46471762cbc74351b9',1,'RadioCommandHandler::RadioCommandReturn::imu()']]]
 ];

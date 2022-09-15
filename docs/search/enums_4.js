@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['radiopacketmode_0',['radioPacketMode',['../d0/d3a/class_t_f_t___i_l_i9341.html#a4a9dbfb8309b63a2b395167dbb5a5978',1,'TFT_ILI9341']]],
-  ['radiopacketmodecolor_1',['radioPacketModeColor',['../d0/d3a/class_t_f_t___i_l_i9341.html#a0279cdeea40e286dd0e77a27e5db22c6',1,'TFT_ILI9341']]]
+  ['ledids_0',['LedIds',['../d4/d16/class_l_e_ds.html#ac6614ad9eaab845d0077beab00555720',1,'LEDs']]],
+  ['loglevel_1',['LogLevel',['../d3/d42/class_logger.html#ac744681e23720966b5f430ec2060da36',1,'Logger']]]
 ];

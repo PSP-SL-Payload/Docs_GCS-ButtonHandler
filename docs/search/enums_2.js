@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['ledids_0',['LedIds',['../d4/d16/class_l_e_ds.html#ac6614ad9eaab845d0077beab00555720',1,'LEDs']]],
-  ['loglevel_1',['LogLevel',['../d3/d42/class_logger.html#ac744681e23720966b5f430ec2060da36',1,'Logger']]]
+  ['fileflags_0',['FileFlags',['../d2/d31/class_s_d_file.html#a4a6a9de4f78d16197f7b1ca7ee62e79d',1,'SDFile']]]
 ];
